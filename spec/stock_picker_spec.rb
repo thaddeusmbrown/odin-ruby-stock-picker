@@ -9,7 +9,7 @@ RSpec.describe 'Stock Picker Project' do
       expect(stock_picker(daily_stock_price)).to eq(result)
     end
 
-    xit 'when highest day is last and lowest is in middle' do
+    it 'when highest day is last and lowest is in middle' do
       daily_stock_price = [17,3,6,9,10,8,6,1,15]
       result = [1,8]
       expect(stock_picker(daily_stock_price)).to eq(result)
