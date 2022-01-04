@@ -14,6 +14,6 @@ def stock_picker(daily_price)
     end
     result
   end
-  binding.pry
+  # binding.pry
   buy_sell_hash.key(buy_sell_hash.values.max)
 end
